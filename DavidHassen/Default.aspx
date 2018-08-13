@@ -55,7 +55,7 @@
             <asp:Panel ID="pnlUpload" runat="server">
                 <div class="col-md-6">
                     <asp:Label runat="server" class="font-bold" Text="Title:"></asp:Label>
-                    <asp:TextBox runat="server" ClientIDMode="Static" ID="txtTitle" class="form-control"></asp:TextBox>
+                    <asp:TextBox runat="server" ClientIDMode="Static" ID="txtTitle" class="form-control" MaxLength="20"></asp:TextBox>
                     <asp:Label ID="Label1" runat="server" Text="" ClientIDMode="Static" class="error-text"></asp:Label>
                 </div>
                 <div class="col-md-6">
@@ -75,9 +75,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <asp:Button ID="btnReset" runat="server" CssClass="small-button btn btn-primary" Text="Upload Again" Visible="false" OnClick="btnReset_Click" />
-                    
+                <div class="col-md-3">
+                    <asp:Label runat="server" ID="lblImageTitle" class="font-bold"></asp:Label>
+                </div>
+                <div class="col-md-3">
+                    <asp:Button ID="btnReset" runat="server" CssClass="small-button btn btn-primary" Text="Upload Again" Visible="false" OnClick="btnReset_Click" />                    
                 </div>
                 <div class="col-md-6">
                     <asp:Button ID="btnCrop" runat="server" CssClass="small-button btn btn-primary" Text="Crop" OnClick="btnCrop_Click" />

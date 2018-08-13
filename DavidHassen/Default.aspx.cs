@@ -23,7 +23,7 @@ namespace DavidHassen
             imageService = new ImageService(); ;
         }
         String path = System.Web.HttpContext.Current.Request.PhysicalApplicationPath + "Images\\";
-        
+
         #endregion
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace DavidHassen
                 //Session["UploadImage"] = ImageUploader.FileName;
                 String fileExtension = Path.GetExtension(ImageUploader.FileName).ToLower();
                 Session["UploadImage"] = txtTitle.Text + fileExtension;
-                
+
                 // Suitable file location to store thumb.
                 ImageUploader.PostedFile.SaveAs(path + Session["UploadImage"]);
                 FileSaved = true;
@@ -72,6 +72,8 @@ namespace DavidHassen
         /// <param name="e"></param>
         protected void btnCrop_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(W.Value) || string.IsNullOrEmpty(H.Value) || string.IsNullOrEmpty(X.Value) || string.IsNullOrEmpty(Y.Value))
+                return;
             // Get Image Original name.
             string imageName = Session["UploadImage"].ToString();
             // Get Selected Area
@@ -103,6 +105,7 @@ namespace DavidHassen
                     imageModel.CroppedImagePath = "Images/" + croppedName;
                     imageModel.CroppedThumbnailPath = "Images/" + croppedName;
                     imageModel.ImageName = txtTitle.Text;
+                    lblImageTitle.Text = "Title: " + txtTitle.Text;
 
                     // Insert uploaded image to the database.
                     var status = imageService.Insert(imageModel);
@@ -157,7 +160,8 @@ namespace DavidHassen
             imgOriginal.Visible = true;
             pnlUpload.Visible = true;
             btnCrop.Visible = true;
-            txtTitle.Text= string.Empty;
+            txtTitle.Text = string.Empty;
+            lblImageTitle.Text = string.Empty;
 
             btnReset.Visible = false;
             pnlCropped.Visible = false;
