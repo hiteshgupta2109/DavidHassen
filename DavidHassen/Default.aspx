@@ -27,6 +27,9 @@
                 jQuery('#Y').val(c.y);
                 jQuery('#W').val(c.w);
                 jQuery('#H').val(c.h);
+                jQuery('#ImageSectionWidth').val(jQuery('#imgOriginal').width());
+                jQuery('#ImageSectionHeight').val(jQuery('#imgOriginal').height());
+
             };
         });
 
@@ -45,6 +48,7 @@
                 $("#lblUploaderMessage").text("Please upload files having extensions: " + allowedFiles.join(', ') + " only.");
                 return false;
             }
+
             $("#lblUploaderMessage").text("");
             return true;
         }
@@ -74,7 +78,7 @@
                     <asp:Image ID="imgCropped" runat="server" />
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-t20">
                 <div class="col-md-3">
                     <asp:Label runat="server" ID="lblImageTitle" class="font-bold"></asp:Label>
                 </div>
@@ -94,6 +98,8 @@
                     <asp:HiddenField ID="Y" runat="server" ClientIDMode="Static" />
                     <asp:HiddenField ID="W" runat="server" ClientIDMode="Static" />
                     <asp:HiddenField ID="H" runat="server" ClientIDMode="Static" />
+                    <asp:HiddenField ID="ImageSectionWidth" runat="server" ClientIDMode="Static" />
+                    <asp:HiddenField ID="ImageSectionHeight" runat="server" ClientIDMode="Static" />
                 </asp:Panel>
             </div>
         </div>

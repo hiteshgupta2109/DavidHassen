@@ -47,6 +47,10 @@ namespace DavidHassen
             // Check if uploader has a file.
             if (ImageUploader.HasFile)
             {
+                var img = System.Drawing.Image.FromStream(ImageUploader.PostedFile.InputStream);
+                Session["ImageHeight"] = img.Height;
+                Session["ImageWidth"] = img.Width;
+                
                 //Session["UploadImage"] = ImageUploader.FileName;
                 String fileExtension = Path.GetExtension(ImageUploader.FileName).ToLower();
                 Session["UploadImage"] = txtTitle.Text + fileExtension;
@@ -81,6 +85,8 @@ namespace DavidHassen
             int a = (int)Math.Ceiling(Convert.ToDouble(H.Value));
             int x = (int)Math.Ceiling(Convert.ToDouble(X.Value));
             int y = (int)Math.Ceiling(Convert.ToDouble(Y.Value));
+            Session["ImageSectionHeight"] = ImageSectionHeight.Value;
+            Session["ImageSectionWidth"] = ImageSectionWidth.Value;
 
             byte[] cropImage = Crop(path + imageName, z, a, x, y);
             // Save Cropped image to the server.
@@ -122,10 +128,25 @@ namespace DavidHassen
         /// <param name="X"></param>
         /// <param name="Y"></param>
         /// <returns></returns>
-        static byte[] Crop(string Img, int Width, int Height, int X, int Y)
+        private byte[] Crop(string Img, int Width, int Height, int X, int Y)
         {
             try
             {
+                // Calculate aspect ration for resized image
+                var imageHeight = Convert.ToDouble(Session["ImageHeight"].ToString());
+                var imageWidth = Convert.ToDouble(Session["ImageWidth"].ToString());
+                var imageSectionHeight = Convert.ToDouble(Session["ImageSectionHeight"].ToString());
+                var imageSectionWidth = Convert.ToDouble(Session["ImageSectionWidth"].ToString());
+
+                var verticleRatio = imageHeight/ imageSectionHeight;
+                var horizontalRatio = imageWidth/ imageSectionWidth;
+
+                // update parameter values
+                Width = (int)Math.Ceiling(Width * horizontalRatio);
+                Height = (int)Math.Ceiling(Height * verticleRatio);
+                X = (int)Math.Ceiling(X * verticleRatio);
+                Y = (int)Math.Ceiling(Y * verticleRatio);
+
                 using (SD.Image OriginalImage = SD.Image.FromFile(Img))
                 {
                     using (SD.Bitmap bmp = new SD.Bitmap(Width, Height))
@@ -166,6 +187,11 @@ namespace DavidHassen
             H.Value = string.Empty;
             X.Value = string.Empty;
             Y.Value = string.Empty;
+            Session["ImageHeight"] = null;
+            Session["ImageWidth"] = null;
+            Session["ImageSectionHeight"] = null;
+            Session["ImageSectionWidth"] = null;
+            Session["UploadImage"] = null;
 
             btnReset.Visible = false;
             pnlCropped.Visible = false;
