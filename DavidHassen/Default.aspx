@@ -20,7 +20,7 @@
                     minSize: [80, 80],
                     maxSize: [800, 200]
                 });
-                //jcrop_api.setSelect([140, 180, 160, 180]);
+                jcrop_api.setSelect([0, 0, 80, 80]);
             };
             function storeCoords(c) {
                 jQuery('#X').val(c.x);

@@ -162,6 +162,10 @@ namespace DavidHassen
             btnCrop.Visible = true;
             txtTitle.Text = string.Empty;
             lblImageTitle.Text = string.Empty;
+            W.Value = string.Empty;
+            H.Value = string.Empty;
+            X.Value = string.Empty;
+            Y.Value = string.Empty;
 
             btnReset.Visible = false;
             pnlCropped.Visible = false;
