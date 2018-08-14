@@ -1,9 +1,0 @@
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.BLL.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.BLL.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.DAL.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.Shared.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.DAL.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\bin\Debug\DavidHassen.Shared.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.csprojResolveAssemblyReference.cache
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.pdb

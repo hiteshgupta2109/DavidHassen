@@ -1,0 +1,15 @@
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.Resources.resources
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.vbproj.GenerateResource.Cache
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.vbprojResolveAssemblyReference.cache
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.BLL.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.BLL.pdb
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.BLL.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.DAL.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.Shared.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.DAL.pdb
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.DAL.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.Shared.pdb
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\bin\Debug\DavidHassen.Shared.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Business\DavidHassen.BLL\obj\Debug\DavidHassen.BLL.pdb

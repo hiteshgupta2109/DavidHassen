@@ -1,0 +1,12 @@
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.vbprojResolveAssemblyReference.cache
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.Resources.resources
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.vbproj.GenerateResource.Cache
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.DAL.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.DAL.pdb
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.DAL.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.Shared.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.Shared.pdb
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\bin\Debug\DavidHassen.Shared.xml
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.dll
+E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\GitHub\DavidHassen\Data\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.pdb

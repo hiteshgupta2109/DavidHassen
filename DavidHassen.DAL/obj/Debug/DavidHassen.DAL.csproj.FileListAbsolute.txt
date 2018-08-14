@@ -1,7 +1,0 @@
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\bin\Debug\DavidHassen.DAL.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\bin\Debug\DavidHassen.DAL.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\bin\Debug\DavidHassen.Shared.dll
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\bin\Debug\DavidHassen.Shared.pdb
-E:\Hitesh Gupta\P R O J E C T S\Working\David Hassen\Demo\DavidHassen\DavidHassen.DAL\obj\Debug\DavidHassen.DAL.csprojResolveAssemblyReference.cache

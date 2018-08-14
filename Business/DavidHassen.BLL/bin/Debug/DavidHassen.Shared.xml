@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DavidHassen.Shared
+</name>
+</assembly>
+<members>
+<member name="T:DavidHassen.Shared.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DavidHassen.Shared.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DavidHassen.Shared.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DavidHassen.Shared.ImageModel.#ctor">
+ <summary>
+ Default Initialization.
+ </summary>
+</member>
+</members>
+</doc>
